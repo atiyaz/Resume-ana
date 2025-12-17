@@ -1,0 +1,63 @@
+
+    /* ===== Custom Dashboard Styling ===== */
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    h2, h3, h4 {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    /* Dashboard cards animation */
+    .w3-panel {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .w3-panel:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    /* Profile image overlay */
+    .w3-display-container img {
+      border-radius: 8px 8px 0 0;
+    }
+
+    /* Card styling */
+    .w3-card, .w3-card-4 {
+      border-radius: 12px;
+    }
+
+    /* Section spacing */
+    .w3-card, .w3-card-4, .w3-panel {
+      margin-bottom: 20px;
+    }
+
+    /* Skill bars */
+    .w3-round-xlarge {
+      height: 22px;
+      font-size: 12px;
+    }
+
+    /* Project cards */
+    .w3-border {
+      border-left: 6px solid #009688;
+      background-color: #fafafa;
+    }
+
+    /* Footer styling */
+    footer {
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    /* Responsive text */
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 22px;
+      }
+      h3 {
+        font-size: 18px;
+      }
+    }
+ 
